@@ -38,3 +38,4 @@ yarn-error.log*
 ipfs-upload.config.json
 
 .vercel
+.claude
