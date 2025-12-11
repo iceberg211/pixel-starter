@@ -6,7 +6,10 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "pages:build": "pnpm build && npx @opennextjs/cloudflare build",
+        "preview": "npx @opennextjs/cloudflare preview",
+        "deploy": "pnpm pages:build && npx @opennextjs/cloudflare deploy"
     },
     "dependencies": {
         "daisyui": "5.0.0-beta.8",
@@ -15,6 +18,7 @@
         "react-dom": "^19.0.0"
     },
     "devDependencies": {
+        "@opennextjs/cloudflare": "^1.14.4",
         "@tailwindcss/postcss": "^4.0.0-alpha.32",
         "@types/node": "^20",
         "@types/react": "^18",

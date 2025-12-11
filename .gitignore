@@ -13,6 +13,11 @@
 /out/
 .vercel
 
+# opennext cloudflare
+.open-next/
+.wrangler/
+.dev.vars
+
 # production
 /build
 
@@ -38,4 +43,5 @@ yarn-error.log*
 ipfs-upload.config.json
 
 .vercel
+.claude
 .claude
