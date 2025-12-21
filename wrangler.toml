@@ -8,3 +8,7 @@ assets = { directory = ".open-next/assets", binding = "ASSETS" }
 
 [observability]
 enabled = true
+
+[[r2_buckets]]
+binding = "NEXT_CACHE_BUCKET"
+bucket_name = "pixel-starter-cache"
